@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scada&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--HEADER: Etiqueta del Encabezado-->
+    <header>
+        <img src="assets/img/logo.png" alt="Logo de Alura" class="logo">
+    </header>
+    <!--Fin Encabezado-->
+
+    <!--MAIN: Menu de contenedor para secciones-->
+    <main>
+        <!--Inicio Seccion 1-->
+        <section class="seccion1">
+            <textarea class="text-area" name="" id="" placeholder="Ingrese el texto aquí" cols="30" rows="10"></textarea>
+            <h6 class="text-info">Solo letras minúsculas y sin acentos</h6>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <!--Fin Seccion 1-->
+
+        <!--Inicio Seccion 2-->
+        <section class="seccion2">
+            <textarea name="" id="" class="text-mensaje" cols="30" rows="10"></textarea>
+            <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+        </section>
+        <!--Fin Seccion 2-->
+
+    </main>
+    <!--Fin MAIN-->
+
+    <footer><!--Inicio Pie de Pagina-->
+        <p class="copyright">&copy; Copyright, ALURA G7 – ONE | 2024</p>
+    </footer><!--Fin Pie de Pagina-->
+
+    <script src="assets/js/scripts.js"></script>
+
+</body>
+
+</html>
