@@ -103,7 +103,7 @@ footer {
     font-size: 8px;
 }
 
-/* Media Queries para Responsividad */
+
 @media (max-width: 1024px) {
     .logo {
         width: 5%;
